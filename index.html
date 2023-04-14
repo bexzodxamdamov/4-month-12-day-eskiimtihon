@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css only -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>E-comm(website)</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <div class="header__top">
+            <nav class="header__nav">
+              <div class="header__langs">
+                <select class="header__lang">
+                  <option class="header__option" value="EN">EN</option>
+                  <option class="header__option" value="RU">RU</option>
+                </select>
+              </div>
+              <div class="header__currencies">
+                <select class="header__currency">
+                  <option value="USD">USD</option>
+                  <option value="RUB">RUB</option>
+                </select>
+              </div>
+            </nav>
+            <a href="#" class="header__cart" id="cart"
+              ><img src="./img/Cart.svg" alt="cart" width="28" height="28"
+            /></a>
+          </div>
+          <div class="header__foot">
+            <a href="#"
+              ><img src="./img/logo.svg" alt="logo" width="134" height="44"
+            /></a>
+            <ul class="header__ul">
+              <li><a href="#" class="header__li">HOME </a></li>
+              <li><a href="#" class="header__li">BAGS</a></li>
+              <li>
+                <a href="#" class="header__li">SNEAKERS</a>
+              </li>
+              <li><a href="#" class="header__li">BELT</a></li>
+              <li><a href="#" class="header__li">CONTACT</a></li>
+            </ul>
+            <a href="#" class="header__menu" id="menuBtn">
+              <img src="./img/menu.svg" alt="menu" width="23" height="23" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero__section">
+        <div class="container">
+          <div class="hero__wrapper">
+            <h1 class="hero__title">Super Flash Sale <br />50% Off</h1>
+          </div>
+          <ul class="hero__content">
+            <li class="hero__cart1">
+              <h5 class="hero__subtitle">FS - QUILTED MAXI CROSS BAG</h5>
+            </li>
+            <li class="hero__cart2">
+              <h5 class="hero__subtitle">FS - Nike Air Max 270 React...</h5>
+            </li>
+            <li class="hero__cart3">
+              <h5 class="hero__subtitle">FS - Nike Air Max 270 React...</h5>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="main__container">
+        <div class="main__top">
+          <h2>BEST SELLER</h2>
+          <ul class="main__ul">
+            <li class="main__li" id="category">All</li>
+            <li class="main__li" id="category">Bags</li>
+            <li class="main__li" id="category">Sneakers</li>
+            <li class="main__li" id="category">Belt</li>
+            <li class="main__li" id="category">Sunglasses</li>
+          </ul>
+        </div>
+        <div class="main__form">
+          <input
+            type="text"
+            class="main__input"
+            id="input"
+            placeholder="Search query..."
+          />
+        </div>
+        <ul id="apiCart" class="main__api-info"></ul>
+        <ul class="main__foot">
+          <li class="main__specification">
+            <img src="./img/shipping.png" alt="specification" />
+            FREE SHIPPING
+          </li>
+          <li class="main__specification">
+            <img src="./img/refund.png" alt="specification" />
+            100% REFUND
+          </li>
+          <li class="main__specification">
+            <img src="././img/support.png" alt="specification" />
+            SUPPORT 24/7
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer class="footer">
+      <div>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <img src="./img/logo.svg" alt="logo" width="134" height="44" />
+            <p style="max-width: 300px" class="footer__text">
+              Lorem Ipsum is simply dummy text of the printing andtypesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.Since the 1500s, when an unknown printer.
+            </p>
+          </li>
+          <li class="footer__item">
+            <h3 class="footer__head">Follow Us</h3>
+            <p style="max-width: 240px" class="footer__text">
+              Since the 1500s, when an unknown printer took a galley of type and
+              scrambled.
+            </p>
+          </li>
+          <li class="footer__item">
+            <h3 class="footer__head">Contact Us</h3>
+            <p style="max-width: 140px" class="footer__text">
+              E-Comm , 4578 Marmora Road, Glasgow D04 89GR
+            </p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- javascript -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
